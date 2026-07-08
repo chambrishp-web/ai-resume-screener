@@ -62,16 +62,10 @@ https://github.com/chambrishp-web/ai-resume-screener
 
 ---
 📷 Application Screenshots
-### Home Page
+
 ![Home Page](screenshots/home_page.png)
-
-### ATS Score Dashboard
 ![ATS Score](screenshots/ats_score.png)
-
-### Skill Analysis
 ![Skill Analysis](screenshots/skill_analysis.png)
-
-### PDF Report
 ![PDF Report](screenshots/pdf_report.png)
 
 ---
@@ -82,10 +76,10 @@ https://github.com/chambrishp-web/ai-resume-screener
 AI-Resume-Screener/
 │
 ├── screenshots/
-│   ├── home_page.png
-│   ├── ats_score.png
-│   ├── skill_analysis.png
-│   └── pdf_report.png
+│   ├── home page.png        
+│   ├── ats core.png
+│   ├── skill analysis.png
+│   └── pdf report.png
 ├── app.py
 ├── app_utils.py
 ├── README.md
