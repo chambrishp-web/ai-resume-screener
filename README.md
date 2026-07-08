@@ -1,36 +1,156 @@
-# 📄 Enterprise AI Resume Analytics Dashboard
+# 📄 AI Resume Screener & ATS Matcher
 
-An AI-powered Resume Screening and ATS Matching System built with Python and Streamlit.
+An AI-powered Resume Screening and ATS (Applicant Tracking System) Matcher built with **Python, Streamlit, and Machine Learning**. The application compares a candidate's resume with a job description, calculates an ATS match score, identifies matching and missing skills, predicts the candidate's profile, and generates a downloadable PDF report.
 
-## 🚀 Features
+---
 
-- ATS Resume Matching
-- Job Description Matching
-- Resume PDF Upload
-- Skill Gap Analysis
-- Matching Skills Detection
-- ATS Compatibility Score
-- Hiring Recommendation
-- Interactive Dashboard
-- PDF Report Download
+## 🚀 Live Demo
 
-## 🛠️ Technologies Used
+🔗 Streamlit App:
+https://YOUR-STREAMLIT-LINK.streamlit.app
 
+🔗 GitHub Repository:
+https://github.com/chambrishp-web/ai-resume-screener
+
+---
+
+## ✨ Features
+
+- 📄 Upload Resume (PDF)
+- 📝 Paste Job Description
+- 🤖 AI-based Resume Screening
+- 🎯 ATS Match Score
+- ✅ Matching Skills Detection
+- ❌ Missing Skills Analysis
+- 📊 Interactive ATS Score Gauge
+- 📈 Skill Comparison Charts
+- 💼 Hiring Recommendation
+- 📄 Download PDF Report
+- 🎨 Modern Streamlit User Interface
+
+---
+
+## 🛠 Technologies Used
+
+### Programming Language
 - Python
+
+### Framework
 - Streamlit
+
+### Machine Learning
 - Scikit-learn
-- PyPDF2
-- Plotly
+- TF-IDF Vectorizer
+- Cosine Similarity
+
+### Data Processing
 - Pandas
 - NumPy
 
+### Visualization
+- Plotly
+- Matplotlib
+
+### PDF Processing
+- PyPDF2
+- FPDF
+
+---
+
+## 📸 Screenshots
+
+### Home Page
+
+## 📸 Screenshots
+
+### Home Page
+![Home Page](screenshots/home_page.png)
+
+### ATS Score Dashboard
+![ATS Score](screenshots/ats_score.png)
+
+### Skill Analysis
+![Skill Analysis](screenshots/skill_analysis.png)
+
+### PDF Report
+![PDF Report](screenshots/pdf_report.png)
+
+---
+
+## 📂 Project Structure
+
+```
+AI-Resume-Screener/
+│
+├── screenshots/
+│   ├── home_page.png
+│   ├── ats_score.png
+│   ├── skill_analysis.png
+│   └── pdf_report.png
+├── app.py
+├── app_utils.py
+├── README.md
+```
+
+---
+
 ## ▶️ Run Locally
+
+### 1️⃣ Clone the repository
+
+```bash
+git clone https://github.com/chambrishp-web/ai-resume-screener.git
+```
+
+### 2️⃣ Open the project
+
+```bash
+cd ai-resume-screener
+```
+
+### 3️⃣ Install dependencies
 
 ```bash
 pip install -r requirements.txt
+```
+
+### 4️⃣ Run the application
+
+```bash
 streamlit run app.py
 ```
 
+---
+
+## 💡 Future Improvements
+
+- Resume Ranking System
+- Multi-Resume Comparison
+- Resume Parsing using NLP
+- AI Chatbot Career Assistant
+- Resume Improvement Suggestions
+- Job Recommendation System
+- Multiple File Upload Support
+- Cloud Database Integration
+- User Authentication
+- Dark/Light Theme Toggle
+
+---
+
 ## 👨‍💻 Developer
 
-Chambrish Prabhu
+**Chambrish Prabhu**
+
+Python | Machine Learning | Data Science
+
+GitHub:
+https://github.com/chambrishp-web
+
+LinkedIn:
+(Add your LinkedIn Profile)
+
+---
+
+## ⭐ Support
+
+If you found this project helpful, please consider giving it a ⭐ on GitHub.

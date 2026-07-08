@@ -105,6 +105,8 @@ st.markdown("""
     </style>
     """, unsafe_allow_html=True)
 
+st.image("logo.png", width=300)
+
 st.title("📄 AI Resume Screener & ATS Matcher")
 st.write(
     "Compare resumes with job descriptions using NLP and Machine Learning to generate ATS scores, skill gap analysis, and hiring recommendations."
