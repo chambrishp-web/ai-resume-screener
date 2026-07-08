@@ -9,10 +9,12 @@ An AI-powered Resume Screening and ATS (Applicant Tracking System) Matcher built
 
 ## 🚀 Live Demo
 
-🔗 Streamlit App:
-https://YOUR-STREAMLIT-LINK.streamlit.app
+🌐 **Live Application**
 
-🔗 GitHub Repository:
+https://ai-resume-screener-h8aqrqjnfqrmfsc5hdcff2.streamlit.app
+
+📂 **GitHub Repository**
+
 https://github.com/chambrishp-web/ai-resume-screener
 
 ---
@@ -59,10 +61,6 @@ https://github.com/chambrishp-web/ai-resume-screener
 - FPDF
 
 ---
-
-## 📸 Screenshots
-
-### Home Page
 
 ## 📸 Screenshots
 
@@ -149,8 +147,9 @@ Python | Machine Learning | Data Science
 GitHub:
 https://github.com/chambrishp-web
 
-LinkedIn:
-(Add your LinkedIn Profile)
+Portfolio Projects:
+- AI Resume Screener & ATS Matcher
+- Customer Churn Prediction System
 
 ---
 
