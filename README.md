@@ -1,4 +1,7 @@
 # 📄 AI Resume Screener & ATS Matcher
+![Python](https://img.shields.io/badge/Python-3.11-blue)
+![Streamlit](https://img.shields.io/badge/Streamlit-Live-red)
+![License](https://img.shields.io/badge/License-Educational-yellow)
 
 An AI-powered Resume Screening and ATS (Applicant Tracking System) Matcher built with **Python, Streamlit, and Machine Learning**. The application compares a candidate's resume with a job description, calculates an ATS match score, identifies matching and missing skills, predicts the candidate's profile, and generates a downloadable PDF report.
 
