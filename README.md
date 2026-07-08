@@ -62,8 +62,6 @@ https://github.com/chambrishp-web/ai-resume-screener
 
 ---
 
-## 📸 Screenshots
-
 ### Home Page
 ![Home Page](screenshots/home_page.png)
 
