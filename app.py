@@ -6,6 +6,11 @@ from sklearn.metrics.pairwise import cosine_similarity
 import plotly.graph_objects as go
 from fpdf import FPDF
 
+# Hiring score thresholds
+HIGH_SCORE = 85
+GOOD_SCORE = 70
+MEDIUM_SCORE = 50
+
 # Comprehensive technical skills dictionary mapped to categories for generation
 CORE_SKILLS_BANK = [
     "python", "r", "sql", "nosql", "mysql", "postgresql", "mongodb", "plsql",
@@ -126,18 +131,21 @@ if uploaded_file is not None and job_description.strip() != "":
             # ==========================
             # Hiring Recommendation
             # ==========================
-            if match_score >= 85:
+            if match_score >= HIGH_SCORE:
                 hiring_status = "🟢 Highly Recommended"
-                hiring_reason = "Excellent ATS score with strong skill alignment."
-            elif match_score >= 70:
+                hiring_reason = "Excellent ATS match with strong skill alignment."
+
+            elif match_score >= GOOD_SCORE:
                 hiring_status = "🟢 Recommended"
-                hiring_reason = "Good technical match. Suitable for interview."
-            elif match_score >= 50:
+                hiring_reason = "Good ATS match. A few improvements can strengthen the profile."
+
+            elif match_score >= MEDIUM_SCORE:
                 hiring_status = "🟡 Consider After Skill Improvement"
-                hiring_reason = "Candidate has potential but requires skill improvement."
+                hiring_reason = "Moderate ATS match. Improve the missing skills."
+
             else:
                 hiring_status = "🔴 Not Recommended"
-                hiring_reason = "Major skill gaps found compared to the job description."
+                hiring_reason = "Low ATS match. Significant improvements are needed."
 
             st.success("Deep Diagnostics Execution Complete!")
             st.caption(f"{hiring_status} — {hiring_reason}")
