@@ -61,7 +61,7 @@ https://github.com/chambrishp-web/ai-resume-screener
 - FPDF
 
 ---
-
+📷 Application Screenshots
 ### Home Page
 ![Home Page](screenshots/home_page.png)
 
@@ -148,9 +148,3 @@ https://github.com/chambrishp-web
 Portfolio Projects:
 - AI Resume Screener & ATS Matcher
 - Customer Churn Prediction System
-
----
-
-## ⭐ Support
-
-If you found this project helpful, please consider giving it a ⭐ on GitHub.
