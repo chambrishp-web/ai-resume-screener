@@ -287,7 +287,9 @@ if uploaded_file is not None and job_description.strip() != "":
         line = f"{index}. {skill.title()}: Focus learning paths onto {detail}. Deploy a portfolio asset project explicitly highlighting this competency."
         pdf.multi_cell(effective_page_width, 6, txt=textwrap.fill(line, width=95))
     
-    pdf_output = pdf.output(dest="S").encode("latin-1")
+    pdf_output = pdf.output(dest="S")
+    if isinstance(pdf_output, str):
+        pdf_output = pdf_output.encode("latin-1")
 
     # Centered Global Export Button Area
     st.write("---")
