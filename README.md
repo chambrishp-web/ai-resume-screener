@@ -13,7 +13,7 @@ An AI-powered Resume Screening and ATS (Applicant Tracking System) Matcher built
 
 🌐 Live App:
 
-https://ai-resume-screener-h8aqrqjnfqrmfsc5hdcff2.streamlit.app
+https://ai-resume-screener-abj9dxcs4223ow6jga8pls.streamlit.app
 
 📂 GitHub Repository:
 
